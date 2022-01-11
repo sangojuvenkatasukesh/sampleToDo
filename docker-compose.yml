@@ -1,9 +1,9 @@
-version: "3.9"
+version: "3.3"
 services:
   app:
-    image: vivekjcloud/junebatch:todoviajenkins
+    image: sampletodo:todoviajenkins
     ports:
-      - 9100:3000
+      - 9091:3000
     environment:
       MYSQL_HOST: mysqldb
       MYSQL_USER: root
